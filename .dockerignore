@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log*
+.git
+.gitignore
+.github
+.env
+.env.*
+README.md
+github-push.ps1
+examples
