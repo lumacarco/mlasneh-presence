@@ -1,12 +1,13 @@
-# fly.toml app configuration file generated for mlasneh-presence on 2026-09-06T01:48:09+02:00
+# fly.toml app configuration file generated for mlasneh-presence-y8ejig on 2026-09-06T00:02:07Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'mlasneh-presence'
-primary_region = 'fra'
+app = 'mlasneh-presence-y8ejig'
+primary_region = 'ams'
 
 [build]
+
 [env]
   ALLOWED_ORIGINS = 'https://mlasneh.it,https://www.mlasneh.it'
   CLEANUP_INTERVAL_MS = '5000'
@@ -28,5 +29,6 @@ primary_region = 'fra'
 
 [[vm]]
   memory = '256mb'
+  cpu_kind = 'shared'
   cpus = 1
   memory_mb = 256
